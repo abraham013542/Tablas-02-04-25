@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(62, 48, 94);
+    color: rgb(244, 209, 163);
+}
+header{
+    color: rgb(90, 208, 90);
+    font-size: 40px;
+    text-align: center;    
+}
+a {
+    color: black;
+    
+}
+p {
+    font-size: 20px;
+    color: rgb(141, 70, 164);
+}
+table {
+    margin-left: 200px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: rgb(126, 122, 230);
+    border-color: rgb(187, 51, 51);
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e1bcbc;
+    color: black;
+  }
+  td img {
+    text-align: center;
+    max-width: 100px; /* Establece el ancho máximo */
+    max-height: 100px;/* Establece el alto máximo */
+    width: auto; /* Permite que el ancho se ajuste proporcionalmente */
+    height: auto; /* Permite que el alto se ajuste proporcionalmente */
+  }
+  
